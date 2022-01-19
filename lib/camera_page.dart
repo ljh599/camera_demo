@@ -56,14 +56,14 @@ class _CameraPageState extends State<CameraPage> {
             children: <Widget>[
               SizedBox(
                 width: 400,
-                height: 650,
+                height: 600,
                 child: AspectRatio(
                     aspectRatio: controller.value.aspectRatio,
                     child: CameraPreview(controller)),
               ),
               SizedBox(
                   height: 400,
-                  width: 650,
+                  width: 600,
                   child: Image.asset(widget.imagepath)),
             ],
           ),
@@ -77,6 +77,7 @@ class _CameraPageState extends State<CameraPage> {
               onPressed: () async {
                 try {
                   final image = await controller.takePicture();
+                  //GallerySaver.saveImage(image.path);
                   print(image.path);
                   // If the picture was taken, display it on a new screen.
                   await Navigator.of(context).push(

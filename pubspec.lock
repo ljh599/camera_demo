@@ -156,6 +156,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "9.2.0"
+  gallery_saver:
+    dependency: "direct main"
+    description:
+      name: gallery_saver
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.3.2"
   http:
     dependency: transitive
     description:
@@ -198,6 +205,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.4.1"
+  imgly_sdk:
+    dependency: transitive
+    description:
+      name: imgly_sdk
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.2.0"
   intl:
     dependency: transitive
     description:
@@ -349,6 +363,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.4.0"
+  photo_editor_sdk:
+    dependency: "direct main"
+    description:
+      name: photo_editor_sdk
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.2.0"
   platform:
     dependency: transitive
     description:

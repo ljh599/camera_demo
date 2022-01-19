@@ -5,6 +5,7 @@ import 'package:flutter_map/flutter_map.dart'; // flutter map 的 package
 import 'package:latlong2/latlong.dart'; // flutter map marker時, 用來找尋marker的經緯度函式的package
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'img_choose_page.dart';
+import 'edit_page.dart';
 
 // MapBox的key名字: pk.eyJ1Ijoia29sYTQ5IiwiYSI6ImNrdzYwdHh2NjFjY3Qydm5oeWVjODRrNjkifQ.XumBv-KmjZ71w8ayd2N_-A
 class Map extends StatelessWidget {
@@ -112,6 +113,19 @@ class _MyHomePageState extends State<MyHomePage> {
                                                           MaterialPageRoute(
                                                               builder: (context) =>
                                                                   const Scene1()));
+                                                    }),
+                                                ElevatedButton(
+                                                    child: const Text("編輯相片",
+                                                        style: TextStyle(
+                                                            fontSize: 16,
+                                                            fontWeight:
+                                                                FontWeight
+                                                                    .w500)),
+                                                    onPressed: () {
+                                                      Navigator.of(context).push(
+                                                          MaterialPageRoute(
+                                                              builder: (context) =>
+                                                                  const Edit()));
                                                     })
                                               ],
                                             ),
@@ -169,6 +183,18 @@ class _MyHomePageState extends State<MyHomePage> {
                                                       MaterialPageRoute(
                                                           builder: (context) =>
                                                               const Scene2()));
+                                                }),
+                                            ElevatedButton(
+                                                child: const Text("編輯相片",
+                                                    style: TextStyle(
+                                                        fontSize: 16,
+                                                        fontWeight:
+                                                            FontWeight.w500)),
+                                                onPressed: () {
+                                                  Navigator.of(context).push(
+                                                      MaterialPageRoute(
+                                                          builder: (context) =>
+                                                              const Edit()));
                                                 })
                                           ],
                                         ),
@@ -226,6 +252,18 @@ class _MyHomePageState extends State<MyHomePage> {
                                                       MaterialPageRoute(
                                                           builder: (context) =>
                                                               const Scene3()));
+                                                }),
+                                            ElevatedButton(
+                                                child: const Text("編輯相片",
+                                                    style: TextStyle(
+                                                        fontSize: 16,
+                                                        fontWeight:
+                                                            FontWeight.w500)),
+                                                onPressed: () {
+                                                  Navigator.of(context).push(
+                                                      MaterialPageRoute(
+                                                          builder: (context) =>
+                                                              const Edit()));
                                                 })
                                           ],
                                         ),
@@ -285,7 +323,21 @@ class _MyHomePageState extends State<MyHomePage> {
                                                       MaterialPageRoute(
                                                           builder: (context) =>
                                                               const Scene4()));
-                                                })
+                                                }),
+                                            Expanded(
+                                                child: ElevatedButton(
+                                                    child: const Text("編輯相片",
+                                                        style: TextStyle(
+                                                            fontSize: 16,
+                                                            fontWeight:
+                                                                FontWeight
+                                                                    .w500)),
+                                                    onPressed: () {
+                                                      Navigator.of(context).push(
+                                                          MaterialPageRoute(
+                                                              builder: (context) =>
+                                                                  const Edit()));
+                                                    }))
                                           ],
                                         ),
                                       ));
@@ -342,6 +394,18 @@ class _MyHomePageState extends State<MyHomePage> {
                                                       MaterialPageRoute(
                                                           builder: (context) =>
                                                               const Scene5()));
+                                                }),
+                                            ElevatedButton(
+                                                child: const Text("編輯相片",
+                                                    style: TextStyle(
+                                                        fontSize: 16,
+                                                        fontWeight:
+                                                            FontWeight.w500)),
+                                                onPressed: () {
+                                                  Navigator.of(context).push(
+                                                      MaterialPageRoute(
+                                                          builder: (context) =>
+                                                              const Edit()));
                                                 })
                                           ],
                                         ),
@@ -400,6 +464,18 @@ class _MyHomePageState extends State<MyHomePage> {
                                                       MaterialPageRoute(
                                                           builder: (context) =>
                                                               const Scene6()));
+                                                }),
+                                            ElevatedButton(
+                                                child: const Text("編輯相片",
+                                                    style: TextStyle(
+                                                        fontSize: 16,
+                                                        fontWeight:
+                                                            FontWeight.w500)),
+                                                onPressed: () {
+                                                  Navigator.of(context).push(
+                                                      MaterialPageRoute(
+                                                          builder: (context) =>
+                                                              const Edit()));
                                                 })
                                           ],
                                         ),
@@ -458,7 +534,21 @@ class _MyHomePageState extends State<MyHomePage> {
                                                       MaterialPageRoute(
                                                           builder: (context) =>
                                                               const Scene7()));
-                                                })
+                                                }),
+                                            Expanded(
+                                                child: ElevatedButton(
+                                                    child: const Text("編輯相片",
+                                                        style: TextStyle(
+                                                            fontSize: 16,
+                                                            fontWeight:
+                                                                FontWeight
+                                                                    .w500)),
+                                                    onPressed: () {
+                                                      Navigator.of(context).push(
+                                                          MaterialPageRoute(
+                                                              builder: (context) =>
+                                                                  const Edit()));
+                                                    }))
                                           ],
                                         ),
                                       ));
@@ -515,6 +605,18 @@ class _MyHomePageState extends State<MyHomePage> {
                                                       MaterialPageRoute(
                                                           builder: (context) =>
                                                               const Scene8()));
+                                                }),
+                                            ElevatedButton(
+                                                child: const Text("編輯相片",
+                                                    style: TextStyle(
+                                                        fontSize: 16,
+                                                        fontWeight:
+                                                            FontWeight.w500)),
+                                                onPressed: () {
+                                                  Navigator.of(context).push(
+                                                      MaterialPageRoute(
+                                                          builder: (context) =>
+                                                              const Edit()));
                                                 })
                                           ],
                                         ),

@@ -1,23 +1,4 @@
-// import 'package:flutter/material.dart';
-// import 'img_choose_page.dart';
-
-// void main() {
-//   WidgetsFlutterBinding.ensureInitialized();
-//   runApp(const MyApp());
-// }
-
-// class MyApp extends StatelessWidget {
-//   const MyApp({Key? key}) : super(key: key);
-
 // ignore_for_file: unused_import
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return const MaterialApp(
-//       home: ImgChoose(),
-//     );
-//   }
-// }
 import 'package:flutter/material.dart';
 import 'map.dart';
 

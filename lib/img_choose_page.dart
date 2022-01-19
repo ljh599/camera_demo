@@ -1,4 +1,4 @@
-// ignore_for_file: unused_import
+// ignore_for_file: unused_import, prefer_const_constructors
 
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
@@ -195,7 +195,7 @@ class Scene5 extends StatefulWidget {
 
 class Scene5Choose extends State<Scene5> {
   String path1 = 'assets/pose5-1.png';
-  String path2 = 'assets/pose5-1.png';
+  String path2 = 'assets/pose5-2.png';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -240,7 +240,7 @@ class Scene5Choose extends State<Scene5> {
                     MaterialPageRoute(
                       builder: (context) => CameraPage(
                         cameras: value,
-                        imagepath: path1,
+                        imagepath: path2,
                       ),
                     ),
                   ),
