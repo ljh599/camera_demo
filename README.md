@@ -17,7 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ## 環境安裝
 flutter環境參考這篇
-- [environment for flutter](https://ithelp.ithome.com.tw/articles/10216013)
+- [environment for flutter](https://ithelp.ithome.com.tw/articles/10216013)  
 img.ly跟SDK環境配置請參考這篇
 - [environment for SDK & img.ly](https://iter01.com/629290.html)  
 須注意github上非完整版本，因此圖片編輯功能需自行配置好環境才能跑起來 
