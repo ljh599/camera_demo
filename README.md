@@ -14,3 +14,8 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## 環境安裝
+img.ly跟SDK環境配置請參考這篇
+- [environment for SDK & img.ly](https://iter01.com/629290.html)  
+須注意github上非完整版本，因此圖片編輯功能需自行配置好環境才能跑起來 
